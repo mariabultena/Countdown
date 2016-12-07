@@ -19,10 +19,8 @@ h1{
 	text-align: center;
 	float: left;
 	font-size: 100%;
-	margin-left: 2.5%;
 	color: #fff;
-	padding: 20px;
-	width: 10%;
+	
 
 }
 
@@ -30,24 +28,54 @@ h1{
 	text-align: center;
 	float: left;
 	font-size: 100%;
-	margin-left: 4.5%;
 	color: #fff;
 	padding: 20px;
-	width: 20%;
 	border-radius: 20px;
 	box-sizing: border-box;
 
 }
+#clock span:nth-child(1){
+	position: fixed;
+	right: 75%;
+	top: 20%;
+}
+#clock span:nth-child(2){
+	position: fixed;
+	right: 55%;
+	top:20%;
+}
+#clock span:nth-child(3){
+	position: fixed;
+	right: 35%;
+	top:20%;
+}
+#clock span:nth-child(4){
+	position: fixed;
+	right: 15%;
+	top:20%;
+}
 
 #units span:nth-child(1){
-	background: #444
+	background: #444;
+	position: fixed;
+	right: 75%;
+	top: 30%;
 }
 #units span:nth-child(2){
-	background: #555
+	background: #555;
+	position: fixed;
+	right: 55%;
+	top:30%;
 }
 #units span:nth-child(3){
-	background: #666
+	background: #666;
+	position: fixed;
+	right: 35%;
+	top:30%;
 }
 #units span:nth-child(4){
-	background: #777
+	background: #777;
+	position: fixed;
+	right: 15%;
+	top:30%;
 }
