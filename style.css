@@ -1,0 +1,53 @@
+body{
+	background: #102a54;
+}
+canvas{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+h1{
+	font-size: 200%;
+	color: #fff;
+	margin-left: 80px;
+}
+
+#clock span{
+	text-align: center;
+	float: left;
+	font-size: 100%;
+	margin-left: 2.5%;
+	color: #fff;
+	padding: 20px;
+	width: 10%;
+
+}
+
+#units span{
+	text-align: center;
+	float: left;
+	font-size: 100%;
+	margin-left: 4.5%;
+	color: #fff;
+	padding: 20px;
+	width: 20%;
+	border-radius: 20px;
+	box-sizing: border-box;
+
+}
+
+#units span:nth-child(1){
+	background: #444
+}
+#units span:nth-child(2){
+	background: #555
+}
+#units span:nth-child(3){
+	background: #666
+}
+#units span:nth-child(4){
+	background: #777
+}
